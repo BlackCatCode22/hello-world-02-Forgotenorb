@@ -33,7 +33,7 @@ int main()
     }
 
     cout << "Hello " << userInput << " how are you today>?";
-    cin >> userInput2 << endl;
+    cin >> userInput2;
     if(userInput2 == "good" || userInput2 == "Good"){
 	    cout << "Good to hear that.";
     }else cout << "Thank you for telling me how you are doing today." << endl;
