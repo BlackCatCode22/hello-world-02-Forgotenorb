@@ -18,6 +18,7 @@ int main()
     cout << "Say Hello" << endl;
 
     string userInput;
+    string userInput2;
 
     // Ask user for input, tell user to press enter
     cout << "Please enter your name: ";
@@ -32,8 +33,8 @@ int main()
     }
 
     cout << " Hello  " << userInput << " how are you today>?";
-
-
+    cin >> userInput2 << endl;
+    cout << "I'm glad to hear that you are doing good today" << endl;
 
     return 0;
 }
