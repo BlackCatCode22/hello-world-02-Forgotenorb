@@ -27,14 +27,16 @@ int main()
     cin >> userInput;
 
     // print six lines using a for loop!
-    for (int i=0; i<=6; i++)
+    for (int i=0; i<=1; i++)
     {
         cout << endl;
     }
 
-    cout << " Hello  " << userInput << " how are you today>?";
+    cout << "Hello " << userInput << " how are you today>?";
     cin >> userInput2 << endl;
-    cout << "Thank you for telling me how you are doing today." << endl;
+    if(userInput2 == "good" || userInput2 == "Good"){
+	    cout << "Good to hear that.";
+    }else cout << "Thank you for telling me how you are doing today." << endl;
 
     return 0;
 }
