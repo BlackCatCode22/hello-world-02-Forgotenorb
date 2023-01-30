@@ -34,7 +34,7 @@ int main()
 
     cout << " Hello  " << userInput << " how are you today>?";
     cin >> userInput2 << endl;
-    cout << "I'm glad to hear that you are doing good today" << endl;
+    cout << "Thank you for telling me how you are doing today." << endl;
 
     return 0;
 }
